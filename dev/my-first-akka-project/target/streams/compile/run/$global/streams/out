@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning com.example.ApplicationMain [0m
+[0m[[0minfo[0m] [0mRunning com.paulhoang.Runner [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes[0m

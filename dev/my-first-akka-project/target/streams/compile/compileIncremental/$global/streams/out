@@ -1,51 +1,40 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PongActor.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor$Initialize.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor$PingMessage.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/ApplicationMain.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PongActor$PongMessage.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 3 Java sources to /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes...[0m
-[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@3917985d directly...[0m
-[0m[[0mdebug[0m] [0mJava compilation took 0.506226065 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.22527513 s[0m
-[0m[[0mdebug[0m] [0mJava compile + analysis took 0.734626732 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java)[0m
-[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, equals, main, notifyAll, <init>, ApplicationMain, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Java sources to /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@608d02ce directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.433806424 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.110278145 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.547984233 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java)[0m
+[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, main, notifyAll, <init>, Runner, toString, getClass, hashCode.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java)[0m
-[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	PingActor$Initialize, notify, wait, equals, getSender, context, self, onReceive, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, text, postRestart, postStop, notifyAll, aroundPostRestart, aroundPreRestart, aroundPostStop, <init>, preStart, unhandled, PingActor, akka$actor$Actor$_setter_$context_$eq, PingActor$PingMessage, getContext, sender, counter, toString, getClass, props, getSelf, pongActor, supervisorStrategy, log, getText, hashCode, aroundPreStart.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java)[0m
+[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, getKey, notifyAll, key, <init>, SetRequest, toString, getClass, getValue, value, hashCode.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java)[0m
-[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, equals, getSender, context, self, onReceive, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, text, postRestart, postStop, notifyAll, aroundPostRestart, aroundPreRestart, aroundPostStop, <init>, preStart, unhandled, akka$actor$Actor$_setter_$context_$eq, getContext, sender, toString, getClass, props, PongActor, getSelf, supervisorStrategy, log, getText, hashCode, aroundPreStart, PongActor$PongMessage.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
