@@ -7,6 +7,4 @@
 [0m[[0mdebug[0m] [0m	/Users/paul/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-[0m[[0mdebug[0m] [0mExited with code 0[0m
+[0m[[0mdebug[0m] [0mWaiting for thread MyAkkaActorSystem-akka.actor.default-dispatcher-2 to terminate.[0m

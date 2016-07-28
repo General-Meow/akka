@@ -1,31 +1,24 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PongActor.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/paulhoang/actors/AkkaDbActor.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor$Initialize.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/paulhoang/messages/SetRequest.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/paulhoang/Runner.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PingActor$PingMessage.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/ApplicationMain.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/example/PongActor$PongMessage.class, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes/com/paulhoang/messages/GetRequest.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/GetRequest.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes...[0m
-[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@58e73a2d directly...[0m
-[0m[[0mdebug[0m] [0mJava compilation took 0.531305427 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.105529129 s[0m
-[0m[[0mdebug[0m] [0mJava compile + analysis took 0.640358261 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
-[0m[[0mdebug[0m] [0mThe /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, lambda$new$0, wait, map, equals, context, self, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, postRestart, postStop, getMap, notifyAll, aroundPostRestart, emptyBehavior, aroundPreRestart, aroundPostStop, <init>, preStart, unhandled, akka$actor$Actor$_setter_$context_$eq, lambda$new$1, getContext, sender, toString, AkkaDbActor, getClass, LOG, supervisorStrategy, hashCode, aroundPreStart.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PingActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/Runner.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/PongActor.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/SetRequest.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/example/ApplicationMain.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/messages/GetRequest.java, /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/src/main/java/com/paulhoang/actors/AkkaDbActor.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Java sources to /Users/paul/Dropbox/learning/akka/dev/my-first-akka-project/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@75a5f998 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.482502897 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.14600819 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.632471057 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

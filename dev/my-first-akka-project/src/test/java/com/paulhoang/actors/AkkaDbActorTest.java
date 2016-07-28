@@ -4,6 +4,7 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.testkit.TestActorRef;
+import com.paulhoang.messages.GetRequest;
 import com.paulhoang.messages.SetRequest;
 import junit.framework.Assert;
 import org.junit.Test;
@@ -24,5 +25,16 @@ public class AkkaDbActorTest {
 
         AkkaDbActor akkaDbActor = akkaActorRef.underlyingActor();
         Assert.assertEquals("MyValue", akkaDbActor.getMap().get("MyKey"));
+    }
+
+    @Test
+    public void shouldGetValueFromStore(){
+        TestActorRef<AkkaDbActor> akkaActorRef = TestActorRef.create(system, Props.create(AkkaDbActor.class));
+        SetRequest testMessage = new SetRequest("MyKey", "MyValue");
+        akkaActorRef.tell(testMessage, ActorRef.noSender());
+
+        GetRequest getMessage = new GetRequest("MyKey");
+        akkaActorRef.tell(getMessage, ActorRef.noSender());
+
     }
 }
